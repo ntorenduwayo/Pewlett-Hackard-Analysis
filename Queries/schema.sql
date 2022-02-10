@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS departments (
 
 -- 2. Employees Table:
 CREATE TABLE IF NOT EXISTS employees (
-		emp_no VARCHAR(8) NOT NULL,
+		emp_no INT NOT NULL,
 		birth_date DATE NOT NULL,
 		first_name VARCHAR NOT NULL,
 		last_name VARCHAR NOT NULL,
@@ -18,19 +18,20 @@ CREATE TABLE IF NOT EXISTS employees (
 		PRIMARY KEY (emp_no)
 );
 
--- 3. Dept_emp Table:
-CREATE TABLE IF NOT EXISTS dept_emp (		
-    	emp_no VARCHAR(8) NOT NULL,
-		dept_no VARCHAR(10) NOT NULL,
-    	from_date DATE NOT NULL,
-    	to_date DATE NOT NULL,
+-- 3. dept_manager Table:
+CREATE TABLE IF NOT EXISTS dept_manager (
+		dept_no VARCHAR(4) NOT NULL,
+		emp_no INT NOT NULL,
+		from_date DATE NOT NULL,
+		to_date DATE NOT NULL,
+		FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
 		FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-		FOREIGN KEY (dept_no) REFERENCES departments (dept_no)
+		PRIMARY KEY (dept_no, emp_no)
 );
 
 -- 4. Salaries Table:
 CREATE TABLE IF NOT EXISTS salaries (
-		emp_no VARCHAR(8) NOT NULL,
+		emp_no INT NOT NULL,
   		salary INT NOT NULL,
   		from_date DATE NOT NULL,
   		to_date DATE NOT NULL,
@@ -38,23 +39,30 @@ CREATE TABLE IF NOT EXISTS salaries (
   		PRIMARY KEY (emp_no)
 );
 
--- 5. dept_manager Table:
-CREATE TABLE IF NOT EXISTS dept_manager (
-		dept_no VARCHAR(4) NOT NULL,
-		emp_no VARCHAR(8) NOT NULL,
-		from_date DATE NOT NULL,
-		to_date DATE NOT NULL,
-		FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+-- 5. Dept_emp Table:
+CREATE TABLE IF NOT EXISTS dept_emp (		
+    	emp_no INT NOT NULL,
+		dept_no VARCHAR(10) NOT NULL,
+    	from_date DATE NOT NULL,
+    	to_date DATE NOT NULL,
 		FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-		PRIMARY KEY (dept_no, emp_no)
-); 
+		FOREIGN KEY (dept_no) REFERENCES departments (dept_no)
+);
 
 -- 6. Titles Table:
 CREATE TABLE IF NOT EXISTS titles (
-		emp_no VARCHAR(8) NOT NULL,
-		title VARCHAR NOT NULL,
+		emp_no INT NOT NULL,
+		title VARCHAR(40) NOT NULL,
 		from_date DATE NOT NULL,
 		to_date DATE NOT NULL,
 		FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 		FOREIGN KEY (emp_no) REFERENCES salaries (emp_no)
 );
+
+
+
+
+
+
+
+
