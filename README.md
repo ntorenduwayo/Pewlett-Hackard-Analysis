@@ -10,7 +10,7 @@ We used SQL to query the database that we built, and created table to answer Pew
 * List of Employee eligible for retirement <br/>
   This table unearths the list of all employees who are potentially eligible for retirement regardless of whether they still with the company or not. Some of the employees were     mentioned several times depending on how many times they moved from one department to another within the company. We counted about distinct 90,000 employees eligible for           retirement.
   
-#### List of Employee eligible for retirement Table: <br/>
+#### List of Employee eligible for retirement table 1: <br/>
 
-
+<img width="371" alt="List of employees eligible for retirement" src="https://user-images.githubusercontent.com/34750363/153646796-20501d23-dbcb-42f9-87eb-a5e6b922e716.png">
 
