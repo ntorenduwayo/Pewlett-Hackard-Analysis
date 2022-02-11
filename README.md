@@ -36,3 +36,7 @@ We used SQL to query the database that we built, and created table to answer Pew
 <img width="410" alt="Mentorship Eligibility" src="https://user-images.githubusercontent.com/34750363/153651897-304be5d4-5c5e-4564-9ceb-8598a7417039.png">
 
 ## Summary
+
+More than 60 % of employees potentially eligible for retirement or mentorship are in senior positions. This means that for the next few years there will be a lot of positions open that need to fill in the company. For example, about 20,000 employees in Sales and Development departments alone will be eligible for retirement.
+Thus, to fill all these positions successfully could be a big challenge given the amount of position to fill and the amount of experience that would be required, assuming that most employees eligible for retirement are in senior positions. <br/>
+The company won’t have enough qualified, retirement-ready employees in the departments to mentor the next generation of employees. Thus, the company could prepare for the future by setting up a task force to study and learn what made those senior employees eligible for retirement successful since they appear to have been in the company for a long time. This could potentially help the company in its recruitment process.
