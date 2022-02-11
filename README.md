@@ -28,3 +28,10 @@ We used SQL to query the database that we built, and created table to answer Pew
 
 <img width="136" alt="Count_Unique_Emp_Titles" src="https://user-images.githubusercontent.com/34750363/153649908-5b94bc3c-819a-4b79-90f7-72fd0a9b85d5.png">
 
+* List of employees eligible for mentorship
+  We created a list of employees eligible for mentorship, a glimpse of the table confirmed the same fact that most employees eligible for retirement are in the senior positions.
+  
+#### List of employees eligible for mentorship table 4: <br/>
+
+
+
