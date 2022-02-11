@@ -22,7 +22,7 @@ We used SQL to query the database that we built, and created table to answer Pew
 <img width="286" alt="Emp_Eligible_Ret_UnTitles" src="https://user-images.githubusercontent.com/34750363/153648436-4570af43-b7ee-4686-afa7-9c8e6f68a678.png">
 
 * Count of employees eligible for retirement by their most recent job title <br/>
-  The count of employees potentially eligible for retirement by their most recent job titles revealed that most of them will be among senior staff and senior engineers.
+  The count of employees potentially eligible for retirement by their most recent job titles revealed that most of them will be among senior staff and senior engineers. Thus,     about 30,000 employees in senior positions (i.e. more that 60% of all employees eligibles for retirement) are potentially eligible for retirement.
   
 #### Count of employees eligible for retirement by their most recent job title table 3: <br/>
 
