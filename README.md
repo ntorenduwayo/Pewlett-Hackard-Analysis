@@ -14,3 +14,10 @@ We used SQL to query the database that we built, and created table to answer Pew
 
 <img width="371" alt="List of employees eligible for retirement" src="https://user-images.githubusercontent.com/34750363/153646796-20501d23-dbcb-42f9-87eb-a5e6b922e716.png">
 
+* List of Employees eligible for retirement with their unique titles <br/>
+  This table is almost like the table above, except that it does show all the employees potentially eligible for retirement with their unique job titles. Thus, there are no         duplicates.
+  
+#### List of Employees eligible for retirement with their unique titles table 2: <br/>
+
+<img width="286" alt="Emp_Eligible_Ret_UnTitles" src="https://user-images.githubusercontent.com/34750363/153648436-4570af43-b7ee-4686-afa7-9c8e6f68a678.png">
+
