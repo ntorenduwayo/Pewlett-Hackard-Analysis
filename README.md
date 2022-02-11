@@ -26,4 +26,5 @@ We used SQL to query the database that we built, and created table to answer Pew
   
 #### Count of employees eligible for retirement by their most recent job title table 3: <br/>
 
+<img width="136" alt="Count_Unique_Emp_Titles" src="https://user-images.githubusercontent.com/34750363/153649908-5b94bc3c-819a-4b79-90f7-72fd0a9b85d5.png">
 
