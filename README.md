@@ -33,5 +33,6 @@ We used SQL to query the database that we built, and created table to answer Pew
   
 #### List of employees eligible for mentorship table 4: <br/>
 
+<img width="410" alt="Mentorship Eligibility" src="https://user-images.githubusercontent.com/34750363/153651897-304be5d4-5c5e-4564-9ceb-8598a7417039.png">
 
 
