@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis:
 A client at Pewlett-Hackard would like us to apply data modeling, engineering, and analysis to assist him build an employee database with SQL that could potentially be used to query employees who are retiring for the next few years. <br/>
 We built a database (See the Data folder) to store, maintain, and access the data that we used to query (See Queries folder), analyze, and create tables. <br/>
 The database and analysis will help Pewlett-Hackard to generate a list of all employees eligible for the retirement packages, thus, serving to determine how many positions Pewlett-Hackard will need to fill.
